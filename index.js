@@ -10,9 +10,9 @@ document.querySelectorAll("img")[1].setAttribute("src", j);
 
 // winner
 if (n > i) {
-  document.querySelector("h1").textContent = "🚩Player1 Wins";
+  document.querySelector("h2").textContent = "🚩Player1 Wins";
 } else if (n < i) {
-  document.querySelector("h1").textContent = "🚩Player2 Wins";
+  document.querySelector("h2").textContent = "🚩Player2 Wins";
 } else {
-  document.querySelector("h1").textContent = "Draw!";
+  document.querySelector("h2").textContent = "Draw!";
 }

@@ -16,7 +16,14 @@ body {
   text-align: center;
 }
 
-h1 {
+h4 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 4rem;
+  color: #cc0e74;
+}
+h2 {
   margin: 30px;
   font-family: 'Lobster', cursive;
   text-shadow: 5px 0 #232931;
